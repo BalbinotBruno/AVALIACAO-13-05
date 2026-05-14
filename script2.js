@@ -4,12 +4,12 @@ function entrar() {
     let resDiv = document.getElementById('res')
 
     let email = document.getElementById('login').value
-    let password = document.getElementById('senha')
+    let password = document.getElementById('senha').value
     let msg
 
     for (tentativas = 1; tentavas < 3; tentivas++) {
         if (tentativas >= 3) {
-            msg = 'Voce tentou logar muitas vezes, esperte um tempo antes de tentar novamente!
+            msg = `Voce tentou logar muitas vezes, tente novamente mais tarde!`
             break
         }
         if (emailCorreto != email || senhaCorreta != password) {

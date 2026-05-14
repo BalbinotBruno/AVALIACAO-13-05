@@ -3,7 +3,6 @@ function calcular() {
     let resFinal = document.getElementById('res')
     let salario = 1200
     let msg
-   
 
     if (tarefas > 5 && tarefas < 11) {
         msg = `Voce realizou ${tarefas} tarefas, recebe um Valor adicional de R$100! 
